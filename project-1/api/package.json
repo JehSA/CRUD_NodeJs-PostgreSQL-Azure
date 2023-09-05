@@ -1,8 +1,8 @@
 {
   "name": "project-1",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Aplicação CRUD com Node.js + PostgreSQL + Azure",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon",
@@ -10,8 +10,14 @@
     "prepush": "npm run lint",
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nodejs",
+    "postgresql",
+    "crud",
+    "azure",
+    "node-postgres"
+  ],
+  "author": "Jefferson Almeida <@JehSA>",
   "license": "MIT",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.5.0",

@@ -14,4 +14,7 @@ const productController = require('../controllers/product.controllers');
 // => Rota responsável por criar um novo 'Product' -  (POST): localhost:3000/api/products
 router.post('/products', productController.createProduct);
 
+// => Rota responsável por buscar todos os "Product's" -  (GET): localhost:3000/api/products
+router.get('/products', productController.listAllProducts);
+
 module.exports = router;
