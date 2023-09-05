@@ -8,3 +8,5 @@ CREATE TABLE products(
 SELECT * FROM products
 
 SELECT * FROM products ORDER BY product_name ASC
+
+-- SELECT * FROM products WHERE productid = 3
